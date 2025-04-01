@@ -88,7 +88,7 @@ function init() {
     function createPointClouds() {
         var loader = new THREE.TextureLoader();
         var textures = [
-            loader.load("0.png"),
+            loader.load("o.png"),
             loader.load("y.png"),
             loader.load("gg.png"),
             loader.load("o.png")
