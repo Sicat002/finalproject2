@@ -1,0 +1,19 @@
+ /* Body setup */
+    body {
+      margin: 0;
+      overflow: auto; /* Allows the page to scroll */
+    }
+    html {
+    scroll-behavior: smooth;
+}
+
+    /* Canvas setup to be fixed and cover the entire screen */
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw; /* Full width of the viewport */
+      height: 100vh; /* Full height of the viewport */
+      z-index: -1; /* Ensure it stays behind other content */
+    }
+
